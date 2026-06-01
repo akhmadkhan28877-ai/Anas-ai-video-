@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+<head>
+<head>
+<head>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Video 11220 - Official Website</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box }
+body { 
+  font-family:Arial; 
+  background:linear-gradient(135deg, #0f0f0f, #1a0033); 
+  color:white; 
+  overflow-x:hidden 
+}
+
+@keyframes fadeInUp {
+  from { opacity:0; transform:translateY(30px) }
+  to { opacity:1; transform:translateY(0) }
+}
+@keyframes glow {
+ 0%, 100% { box-shadow:0 0 20px #ff0000 }
+ 50% { box-shadow:0 0 40px #ff0000 }
+}
+@keyframes float {
+ 0%, 100% { transform:translateY(0) }
+ 50% { transform:translateY(-10px) }
+}
+
+header { 
+  background:linear-gradient(135deg, #ff0000, #8b00ff); 
+  padding:60px 20px; 
+  text-align:center;
+  animation:fadeInUp 1s ease
+}
+header h1 { 
+  font-size:45px; 
+  margin-bottom:10px;
+  animation:float 3s ease-in-out infinite
+}
+header p { font-size:20px; opacity:0.9 }
+.stats {
+  display:flex;
+  justify-content:center;
+  gap:40px;
+  margin-top:30px;
+  flex-wrap:wrap
+}
+.stat-box {
+  background:rgba(255,255,255,0.1);
+  padding:20px 30px;
+  border-radius:15px;
+  backdrop-filter:blur(10px);
+  animation:fadeInUp 1s ease 0.3s both
+}
+.stat-box h3 { font-size:35px; color:#ff0000 }
+.stat-box p { font-size:14px; opacity:0.8 }
+
+.subscribe-btn {
+  display:inline-block;
+  background:white;
+  color:#ff0000;
+  padding:15px 35px;
+  margin-top:25px;
+  border-radius:50px;
+  text-decoration:none;
+  font-weight:bold;
+  font-size:20px;
+  transition:0.3s;
+  animation:glow 2s ease-in-out infinite
+}
+.subscribe-btn:hover { transform:scale(1.1) }
+
+.container { max-width:1200px; margin:60px auto; padding:0 20px }
+.section { 
+  margin-bottom:80px; 
+  animation:fadeInUp 1s ease 0.5s both 
+}
+.section h2 { 
+  font-size:35px; 
+  margin-bottom:30px; 
+  border-left:5px solid #ff0000; 
+  padding-left:15px 
+}
+
+.videos {
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(320px, 1fr));
+  gap:25px
+}
+.video-card {
+  background:#1a1a1a;
+  border-radius:15px;
+  overflow:hidden;
+  transition:0.4s;
+  border:2px solid transparent
+}
+.video-card:hover { 
+  transform:translateY(-10px) scale(1.03);
+  border-color:#ff0000;
+  box-shadow:0 10px 30px rgba(255,0,0,0.3)
+}
+.video-card iframe {
+  width:100%;
+  height:200px;
+  border:none
+}
+.video-card h3 { 
+  padding:15px; 
+  font-size:16px;
+  min-height:50px
+}
+
+.about {
+  background:linear-gradient(135deg, #1a1a1a, #2a0033);
+  padding:40px;
+  border-radius:20px;
+  line-height:1.8;
+  font-size:18px;
+  border:2px solid #ff0000
+}
+
+.social {
+  display:flex;
+  gap:20px;
+  justify-content:center;
+  margin-top:30px;
+  flex-wrap:wrap
+}
+.social a {
+  background:linear-gradient(135deg, #ff0000, #8b00ff);
+  padding:15px 30px;
+  border-radius:10px;
+  color:white;
+  text-decoration:none;
+  font-weight:bold;
+  transition:0.3s
+}
+.social a:hover {
+  transform:scale(1.1);
+  box-shadow:0 5px 20px rgba(255,0,0,0.5)
+}
+
+footer {
+  background:#000;
+  text-align:center;
+  padding:40px;
+  margin-top:80px;
+  color:#888
+}
+
+@media(max-width:768px){
+  header h1 { font-size:30px }
+  .stat-box h3 { font-size:25px }
+  .section h2 { font-size:26px }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>AI Video 11220</h1>
+  <p>Gaming | AI Videos | Entertainment</p>
+  
+  <div class="stats">
+    <div class="stat-box">
+      <h3 id="videoCount">0</h3>
+      <p>Total Videos</p>
+    </div>
+    <div class="stat-box">
+      <h3>Games</h3>
+      <p>Free Fire, PUBG, etc</p>
+    </div>
+  </div>
+  
+  <a href="https://www.youtube.com/@aivideo11220_u" target="_blank" class="subscribe-btn">
+    Subscribe Now
+  </a>
+</header>
+
+<div class="container">
+
+  <div class="section">
+    <h2>Latest Videos</h2>
+    <div class="videos" id="videoContainer">
+      <!-- Yahan videos load she -->
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>About Channel</h2>
+    <div class="about">
+      <p>
+        Salaam! Zama channel AI Video 11220 de. Za taso ta 
+        gaming videos, AI content, aur entertainment videos darkam. 
+        Rozana new video upload kegi. Subscribe kawa aur bell icon press kawa ta che new video miss na she!
+      </p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Follow Me</h2>
+    <div class="social">
+      <a href="https://www.youtube.com/@aivideo11220_u" target="_blank">YouTube</a>
+      <a href="#" target="_blank">Instagram</a>
+      <a href="#" target="_blank">TikTok</a>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 AI Video 11220. All Rights Reserved.</p>
+</footer>
+
+<script>
+// Apni video IDs yahan dalo
+const videoIds = [
+  'VIDEO_ID_1',
+  'VIDEO_ID_2', 
+  'VIDEO_ID_3',
+  'VIDEO_ID_4',
+  'VIDEO_ID_5',
+  'VIDEO_ID_6'
+];
+
+const videoTitles = [
+  'Video Title 1',
+  'Video Title 2', 
+  'Video Title 3',
+  'Video Title 4',
+  'Video Title 5',
+  'Video Title 6'
+];
+
+// Load videos
+const container = document.getElementById('videoContainer');
+videoIds.forEach((id, index) => {
+  const card = document.createElement('div');
+  card.className = 'video-card';
+  card.innerHTML = `
+    <iframe src="https://www.youtube.com/embed/${id}" allowfullscreen></iframe>
+    <h3>${videoTitles[index]}</h3>
+  `;
+  container.appendChild(card);
+});
+
+// Counter animation - apna total video count yahan likho
+let count = 0;
+const target = 50;
+const counter = setInterval(() => {
+  count++;
+  document.getElementById('videoCount').textContent = count;
+  if(count >= target) clearInterval(counter);
+}, 50);
+</script>
+
+</body>
+</html>
